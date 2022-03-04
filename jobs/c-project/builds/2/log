@@ -1,0 +1,24 @@
+Started by user [8mha:////4Ob9ri0zy+T2JY7xaQd1JjOvwIY8/mR3aNyhnslSali0AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZB/dLi1CL94ozMssTcxLyUykQAB4VkFMYAAAA=[0mSHIVAKUMAR M V
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/c-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/shivampura1/C-Project.git # timeout=10
+Fetching upstream changes from https://github.com/shivampura1/C-Project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/shivampura1/C-Project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2999bc05095fe9d9f973ca20342072b9e887cc35 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2999bc05095fe9d9f973ca20342072b9e887cc35 # timeout=10
+Commit message: "all files added"
+ > git rev-list --no-walk 2999bc05095fe9d9f973ca20342072b9e887cc35 # timeout=10
+[c-project] $ /bin/sh -xe /tmp/jenkins1504651088788301630.sh
++ cd /var/lib/jenkins/
++ make
+make: *** No targets specified and no makefile found.  Stop.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
